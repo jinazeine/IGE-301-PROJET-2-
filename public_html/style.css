@@ -1,0 +1,197 @@
+body{ 
+    background-color: beige;
+}
+
+#menu{
+    background-color: red;
+    width: 900px;
+    height: 60px;
+    text-align: center;
+    position: relative;
+    left: 400px;
+    top: -50px;
+
+}
+#menu>a:hover{
+    border: solid red 2px;
+    background-color: beige;
+}
+#menu>a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 30px;
+    position: relative;
+    top: 15px;
+    font-style: italic;
+}
+
+#pic{    
+    background-image: url('images/jeita.jpg');
+    border: solid grey 3px;
+    border-radius: 20px;
+    width: 1000px;
+    height: 536px;
+    margin: 0px auto;
+}
+
+#h1{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+#footer{
+    font-weight: bold;
+    color: red;
+    size: 5px;
+}
+
+#about{
+   text-align: center;
+
+}
+#about>p{
+     display: inline-block;
+     font-weight: bold;
+     font-size :20px;
+     width: 600px;
+     
+}
+#about>h1{
+    text-decoration: underline;
+    color: red;
+    font-weight: bold;
+    
+}
+    
+
+.p>img{
+     width:300px;
+    height: 300px;
+     padding:50px;
+    
+}
+.pname{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+   margin-right: 210px;
+   margin-left: 160px;
+
+}
+.plastrow>img{
+     width:300px;
+    height: 300px;
+     padding-left :100px;
+     padding-right: 100px;
+     padding-top: 50px;
+     padding-bottom: 50px;
+    
+}
+.lastrow{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+   margin-right: 350px;
+   margin-left: 205px;
+
+}
+.header>h1{
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+    font-weight: bold;
+   padding: 10px;
+}
+
+.header{
+    width: 545px;
+    margin: auto;
+    background-color:beige;
+    border: solid black 5px;
+}
+.border{
+    width: 1310px;
+    margin: auto;
+    background-color:white;
+    border: solid black 5px;
+}
+#fo{
+    width: 545px;
+    margin: auto;
+    background-color:beige;
+    border: solid black 5px;
+    
+}#fo>h1{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.gborder{
+    width: 1165px;
+    margin: auto;
+    background-color:white;
+    border: solid black 5px;
+}
+.header>p{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.d{ width: 1310px;
+    margin: auto;
+    background-color:white;
+    border: solid black 5px;
+  
+}
+.d>h2{
+    font-weight: bold;
+    color:red;
+    text-decoration: underline;
+    padding: 10px;
+    
+    
+}
+
+#list>li>a{
+    text-decoration: none;
+   color: black;
+   font-size: 20px;
+   font-weight: bold;
+  
+}
+.d>h3{
+    font-weight: bold;
+    color:black;
+    padding: 10px;
+    
+    
+}
+table{
+    width: 700px;
+    margin-top: 20px;
+    border: solid 5px;
+    font-size: 20px;
+    background-color: beige;
+    text-align: center;
+   margin-left:300px;
+}
+caption{
+    color: red;
+    font-weight: bold;
+    font-size:30px;
+   
+}
+td,th{
+    border: solid  1px;
+    
+}
+thead, tfoot{
+    background-color: red;
+}
