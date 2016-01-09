@@ -2,13 +2,7 @@ function getmail(){
    window.alert("your email is " + document.getElementById("myEmail").value);
 
 }
-function changeBGcolor(me){
-                if(me.value===""){
-                    me.style.backgroundColor="";
-                }else{
-                    me.style.backgroundColor="red";
-                }
-            }
+
             
 function getInfo(){
          var frm = document.getElementById("myForm");
@@ -31,7 +25,14 @@ var coloring;
       document.getElementById("myP").style.color = color;
             }
             
-            
+
+function changeBGcolor(me){
+                if(me.value===""){
+                    me.style.backgroundColor="";
+                }else{
+                    me.style.backgroundColor="red";
+                }
+            }
             
         var photo;
             function changePic(){
