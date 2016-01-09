@@ -28,7 +28,7 @@ body{
 }
 
 #pic{    
-    background-image: url('images/jeita.jpg');
+    
     border: solid grey 3px;
     border-radius: 20px;
     width: 1000px;

@@ -34,11 +34,9 @@ function changeBGcolor(me){
                 }
             }
             
-        var photo;
-            function changePic(){
-                photo = window.setInterval(getPic, 2000);
-            }
-            function getPic(){
+ var photo;
+ function changePic(){photo = window.setInterval(getPic, 2000); }
+ function getPic(){
                 var pic;
                 var rnd = Math.random();
                 if(rnd<0.34){
@@ -47,13 +45,10 @@ function changeBGcolor(me){
                    pic = url('images/antelias.jpg');
                 }else {
                     pic = url('images/rabieh.jpg');
-      
-                }
-                document.getElementById("pic").style.backgroundimage = pic;
+                } document.getElementById("pic").style.backgroundimage = pic;
             }
             
+            
+            
 
-            
-            
-            
-            
+               
