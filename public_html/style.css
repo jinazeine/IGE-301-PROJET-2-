@@ -102,7 +102,7 @@ body{
 }
 .header>h1{
     text-align: center;
-    text-decoration: underline;
+    text-decoration:none;
     color: red;
     font-weight: bold;
    padding: 10px;
@@ -117,20 +117,11 @@ body{
 .border{
     width: 1310px;
     margin: auto;
-    background-color:white;
-    border: solid black 5px;
-}
-#fo{
-    width: 545px;
-    margin: auto;
     background-color:beige;
     border: solid black 5px;
-    
-}#fo>h1{
-    text-align: center;
-    color: black;
-    font-weight: bold;
 }
+
+
 .gborder{
     width: 1165px;
     margin: auto;
@@ -204,4 +195,11 @@ thead, tfoot{
 #email{
    text-align: center;
    font-weight: bold;
+}
+
+#orderlist{
+    font-weight: bold;
+   font-size: 20px;
+  
+    
 }

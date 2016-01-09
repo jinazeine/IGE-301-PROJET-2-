@@ -50,3 +50,9 @@ var coloring;
                 }
                 document.getElementById("pic").style.backgroundimage = pic;
             }
+            
+
+            
+            
+            
+            
