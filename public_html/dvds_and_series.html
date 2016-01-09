@@ -5,6 +5,8 @@
         <title>DvDs And Series</title>
         <meta charset="UTF-8">
     <link href="style.css" rel="stylesheet"/>
+         <script src="script.js"></script>
+         <script src="jquery-2.1.3.js"></script>
     </head>
     <body>
       <img src="images/logo.png"  alt="panthera logo"/>  
@@ -91,8 +93,49 @@
             <br>
             <br>
               <div id="fo">
-            <h1>You can also order any movie or  tv series you want no matter how old it was just contact us :)</h1>
+            <h1>You can also order any movie or  tv series you want no matter how old it is just contact us by following the instructions below :)</h1>
         </div>
+            <br>
+          <div class="border">
+          <ol id="list">
+          <li>Select the title of the movie and the year of its release<br><p>You can visit IMDB site to help you finding the correct name of the film and its released year  
+              
+                    <button onclick="window.open('http://www.imdb.com','_blank')">Go to IMDB </button> </p></li>
+          <li>Chose the branch that you want to receive your order 
+            <select id="cbbranch">
+            <option>Jeita</option>
+            <option>Sarba</option>
+            <option>Antelias</option>
+            <option>Rabieh</option>
+            <option>Jbeil</option>
+            <option>Salomeh</option>
+            <option>Dekweneh</option>
+            <option>Sed el bouchrieh</option>
+            </select><br><br> </li>
+           
+          <li>chose a way that you want to contact us<br><br>
+                <ul><li> by phone <p>click <a href="contact_us.html">here</a> to get our phone numbers </p></li>
+                    <li>by email: you have to insert the following information in your email then send it to pantheradvd@gmail.com  <form id="myForm" onsubmit="getInfo()">
+                                  <p>First name:
+                                  <input type="text" name="fname" onfocus="this.style.borderColor='red'" onblur="this.style.borderColor=''"/></p>
+                                  <p>Last name:
+                                  <input type="text" name="lname" onfocus="this.style.borderColor='red'" onblur="this.style.borderColor=''"/></p>
+                                  <p>Phone number:
+                                  <input type="text" name="phone" onfocus="this.style.borderColor='red'" onblur="this.style.borderColor=''"/></p>
+                                   <p>Movie title:
+                                  <input type="text" name="movie_title" onfocus="this.style.borderColor='red'" onblur="this.style.borderColor=''"/></p>
+                                   <p>Release year:
+                                  <input type="text" name="Year" onfocus="this.style.borderColor='red'" onblur="this.style.borderColor=''"/></p>
+                                    <p>Selected branch:
+                                  <input type="text" name="branch"onfocus="this.style.borderColor='red'" onblur="this.style.borderColor=''"/></p>
+                                  <input type="submit" value="ok"/>
+                        </form> <br>
+                         <button onclick="window.open('http://www.gmail.com','_blank')">Go to Gmail to send us an Email </button> 
+                    </li></ul>
+               </li>
+          </ol>
+            </div><br>
+            <br>Click <a href="#" target="_top">here</a> to go to top
             
     </body>
 </html>

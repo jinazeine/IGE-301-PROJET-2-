@@ -5,8 +5,10 @@
         <title>About Us "PANTHERA"</title>
         <meta charset="UTF-8">
         <link href="style.css" rel="stylesheet"/>
+        <script src="script.js"></script>
+        <script src="jquery-2.1.3.js"></script>
     </head>
-    <body> 
+    <body onload="changeColor()"> 
       
               <img src="images/logo.png"  alt="panthera logo"/>  
        
@@ -21,7 +23,7 @@
               
               <div id="about">
                   <h1>About us:</h1>  
-                  <P>We opened our first branch in 2005 at "Le Charcutier Aoun" Jeita
+                  <P id="myP">We opened our first branch in 2005 at "Le Charcutier Aoun" Jeita
                       which is our main branch. In 2008 we opened also in "Le Charcutier Aoun" but this time in Rabieh, 
                       and then in 2013 we opened a new branch in "Le Charcutier Aoun" Antelias. At then of  2014 we decided to expand our business 
                       to cover mover branches of "Le Charcutier Aoun" and we opened in Sarba, Jbeil, Salomeh, Dekweneh and recently in Sed El Bouchrieh and we are 
@@ -34,26 +36,26 @@
               <a href="images/jeita.jpg" class="p"><img src="images/jeita.jpg" alt="jeita"/></a>
               <a href="images/sarba.jpg" class="p"><img src="images/sarba.jpg" alt="sarba"/></a>
               <a href="images/antelias.jpg" class="p"><img src="images/antelias.jpg" alt="antelias"/></a>
-               <a href="images/jeita.jpg" class="pname">jeita</a>
-               <a href="images/sarba.jpg" class="pname">Sarba</a>
-               <a href="images/antelias.jpg" class="pname">Antelias</a>
+               <a href="images/jeita.jpg" class="pname" onmousedown="this.style.color='blue'" onmouseup="this.style.color='red'">jeita</a>
+               <a href="images/sarba.jpg" class="pname" onmousedown="this.style.color='blue'" onmouseup="this.style.color='red'">Sarba</a>
+               <a href="images/antelias.jpg" class="pname" onmousedown="this.style.color='blue'" onmouseup="this.style.color='red'">Antelias</a>
         
               <a href="images/salomeh.jpg" class="p"><img src="images/salomeh.jpg" alt="salomeh"/></a>
               <a href="images/Jbeil.jpg" class="p"><img src="images/Jbeil.jpg" alt="jbeil"/></a>
                 <a href="images/dekwene.jpg" class="p"><img src="images/dekwene.jpg" alt="dekwene"/></a>
-              <a href="images/salomeh.jpg" class="pname">Salomeh</a> 
-               <a href="images/jbeil.jpg" class="pname">Jbeil</a>
-               <a href="images/dekwene.jpg" class="pname">Dekweneh</a>
+              <a href="images/salomeh.jpg" class="pname" onmousedown="this.style.color='blue'" onmouseup="this.style.color='red'">Salomeh</a> 
+               <a href="images/jbeil.jpg" class="pname" onmousedown="this.style.color='blue'" onmouseup="this.style.color='red'">Jbeil</a>
+               <a href="images/dekwene.jpg" class="pname" onmousedown="this.style.color='blue'" onmouseup="this.style.color='red'">Dekweneh</a>
                
-               <a href="images/rabieh.jpg" class="plastrow"><img src="images/rabieh.jpg" alt="rabieh"/></a>
+               <a href="images/rabieh.jpg" class="plastrow" ><img src="images/rabieh.jpg" alt="rabieh"/></a>
               <a href="images/sed el bauchrieh.jpg" class="plastrow"><img src="images/sed el bauchrieh.jpg" alt="sed el bauchrieh"/></a>
-                 <a href="images/rabieh.jpg" class="lastrow">Rabieh</a>
-               <a href="images/sed el bauchrieh.jpg" class="lastrow">Sed El Bouchrieh</a>
+                 <a href="images/rabieh.jpg" class="lastrow" onmousedown="this.style.color='blue'" onmouseup="this.style.color='red'">Rabieh</a>
+               <a href="images/sed el bauchrieh.jpg" class="lastrow" onmousedown="this.style.color='blue'" onmouseup="this.style.color='red'">Sed El Bouchrieh</a>
               
                  <br>
                  
  
-     
+      <br>Click <a href="#" target="_top">here</a> to go to top
                  
                  
     </body>
